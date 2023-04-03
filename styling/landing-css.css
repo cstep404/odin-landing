@@ -25,7 +25,7 @@ body {
 .logo {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    align-items: center;
 }
 
 .header-logo {
@@ -44,13 +44,17 @@ li {
 
 a {
     text-decoration: none;
+    border: 2px dotted white;
+    padding: 8px;
+    border-radius: 10%;
 }
 
 .sign-up {
     display: flex;
-    gap: 16px;
+    gap: 32px;
     justify-content: center;
     align-items: center;
+    padding: 48px;
 }
 
 .hero-main {
@@ -65,12 +69,14 @@ a {
 }
 
 button {
-    padding: 8px;
     background-color: #3882F6;
     border-radius: 8px;
     color: white;
-    width: 15%;
     font-weight: 700;
+    border: none;
+    outline: none;
+    padding: 8px;
+    max-width: 100px;
 }
 
 .info-main {
@@ -90,18 +96,20 @@ button {
 .content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    flex-basis: 500px;
+    gap: 8px;
 }
 
 .hero-secondary {
-    max-width: 300px;
+    
 }
 
 .placeholder-img {
-    padding: 16px;
 }
 
 img {
     border-radius: 10%;
+    border: 1px solid white;
+    width: 400px;
+    height: auto;
 }
