@@ -24,6 +24,7 @@ body {
 .logo {
     display: flex;
     justify-content: space-between;
+    padding: 16px;
 }
 
 .header-logo {
@@ -33,7 +34,7 @@ body {
 
 ul {
     display: flex;
-    gap: 8px;
+    gap: 8px; 
 }
 
 li {
@@ -42,4 +43,15 @@ li {
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
+
+.sign-up {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {}
