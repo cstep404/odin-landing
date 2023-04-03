@@ -24,8 +24,10 @@ body {
 
 .logo {
     display: flex;
+    gap: 32px;
     justify-content: space-between;
     align-items: center;
+    padding: 48px;
 }
 
 .header-logo {
@@ -91,20 +93,6 @@ button {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 500px;
-    gap: 8px;
-}
-
-.hero-secondary {
-    
-}
-
-.placeholder-img {
 }
 
 img {
