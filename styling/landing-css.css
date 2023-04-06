@@ -102,7 +102,7 @@ button {
 }
 
 .card {
-    
+    text-align: center;
 }
 
 .quote {
@@ -111,11 +111,4 @@ button {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-}
-
-img {
-    border-radius: 10%;
-    border: 1px solid white;
-    width: 400px;
-    height: auto;
 }
