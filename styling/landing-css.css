@@ -142,7 +142,9 @@ img {
 }
 
 .container-2 {
-    margin: 48px;
+    margin: 45px;
+    display: flex;
+    justify-content: center;
 }
 
 .call-to-action {
@@ -153,7 +155,8 @@ img {
     justify-content: center;
     align-items: center;
     padding: 32px;
-    margin: 48px;
+    flex-basis: 75%;
+    margin: 48px 0 48px 0;
 }
 
 .cta-main-text {
